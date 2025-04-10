@@ -1,6 +1,6 @@
 FROM python:3.11
 
-COPY requirements.txt .
+COPY devops-lab5/requirements.txt .
 RUN pip install -r requirements.txt
 
 WORKDIR /app
